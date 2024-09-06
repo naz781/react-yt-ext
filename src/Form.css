@@ -1,0 +1,88 @@
+/* Form.css */
+
+/* Basic Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* Light aqua blue background for the entire popup */
+}
+
+/* Form Container */
+form {
+  width: 300px;
+  margin: 20px auto; /* Center form horizontally with margin at the top */
+  padding: 15px;
+  border: 1px solid #b2ebf2; /* Light aqua blue border */
+  border-radius: 8px; /* Slightly larger border radius for a softer look */
+  background-color: #ffffff; /* White background for the form */
+}
+
+/* Form Elements */
+form div {
+  margin-bottom: 15px; /* Added space between elements */
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: normal;
+  color: #00796b; /* Darker aqua color for the label */
+}
+
+input {
+  width: 100%; /* Full width input field */
+  padding: 10px;
+  border: 1px solid #80deea; /* Aqua blue border for the input */
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  width: 100%; /* Full width button */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #00bcd4; /* Bright aqua blue background for the button */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0097a7; /* Slightly darker aqua blue on hover */
+}
+
+button:disabled {
+  background-color: #b2ebf2; /* Light aqua blue for disabled state */
+  cursor: not-allowed;
+}
+
+/* List Style */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #b2ebf2; /* Light aqua blue border bottom */
+  font-size: 14px;
+  position: relative;
+  background-color: #ffffff; /* White background for list items */
+}
+
+/* Delete Icon Style */
+.delete-icon {
+  position: absolute;
+  right: 10px; /* Positioning the icon 10px from the right edge */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+  font-size: 16px; /* Size of the icon */
+  color: #00bcd4; /* Aqua blue color for delete icon */
+  cursor:pointer; /* Pointer cursor on hover */
+}
